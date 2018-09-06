@@ -441,4 +441,6 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_ifDHsrG3EeifRZgFwFToVQ" login="zhang@talend.com" firstName="zhang" lastName="jie" type="MDM" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_iyxU8LG3EeifRZgFwFToVQ" login="jie.zhang@talend.com" firstName="zhang" lastName="jie" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_IOxcYLG4EeifRZgFwFToVQ" login="security@company.com" firstName="security" lastName="security" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_IOxcYbG4EeifRZgFwFToVQ" login="wk@wk.com" firstName="wk" lastName="e" type="MDM" additionnalData="{}"/>
 </xmi:XMI>
