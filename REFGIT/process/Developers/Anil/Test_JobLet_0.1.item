@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="Talend AMC additional parameters" name="cv_TalendAMC_AdditionalParms" prompt="cv_TalendAMC_AdditionalParms?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="characterEncoding=UTF-8"/>
+    <contextParameter comment="Talend AMC database name" name="cv_TalendAMC_DB" prompt="cv_TalendAMC_DB?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="TalendAMC"/>
+    <contextParameter comment="Talend AMC Server port number" name="cv_TalendAMC_Port" prompt="cv_TalendAMC_Port?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="3306"/>
+    <contextParameter comment="Talend AMC password" name="cv_TalendAMC_Pwd" prompt="cv_TalendAMC_Pwd?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_Password" value="fbAqpfpZdomxa9KGQpuEig=="/>
+    <contextParameter comment="Talend AMC schema name" name="cv_TalendAMC_Schema" prompt="cv_TalendAMC_Schema?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value=""/>
+    <contextParameter comment="Talend AMC Server name" name="cv_TalendAMC_Server" prompt="cv_TalendAMC_Server?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="mitlnd01-dvl.caidan.local"/>
+    <contextParameter comment="Talend AMC user name" name="cv_TalendAMC_User" prompt="cv_TalendAMC_User?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="apptlndd"/>
+    <contextParameter comment="Progress Tablename" name="lv_Progress_Tablename" prompt="lv_Progress_Tablename?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Tablename Alias" name="lv_Progress_TableAlias" prompt="lv_Progress_TableAlias?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Database Jdbc Url" name="lv_Progress_Database_JdbcUrl" prompt="lv_Progress_Database_JdbcUrl?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Classname" name="lv_Progress_ClassName" prompt="lv_Progress_ClassName?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress DB Username" name="lv_Progress_Username" prompt="lv_Progress_Username?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress DB Password" name="lv_Progress_Pwd" prompt="lv_Progress_Pwd?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_Password" value=""/>
+    <contextParameter comment="Progress Dyname Query" name="lv_Progress_DynamicQuery" prompt="lv_Progress_DynamicQuery?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Dyname Column list" name="lv_Progress_DynamicColsList" prompt="lv_Progress_DynamicColsList?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="SandBox">
+    <contextParameter comment="Talend AMC additional parameters" name="cv_TalendAMC_AdditionalParms" prompt="cv_TalendAMC_AdditionalParms?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="characterEncoding=UTF-8"/>
+    <contextParameter comment="Talend AMC database name" name="cv_TalendAMC_DB" prompt="cv_TalendAMC_DB?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="TalendAMC"/>
+    <contextParameter comment="Talend AMC Server port number" name="cv_TalendAMC_Port" prompt="cv_TalendAMC_Port?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="3306"/>
+    <contextParameter comment="Talend AMC password" name="cv_TalendAMC_Pwd" prompt="cv_TalendAMC_Pwd?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_Password" value="fbAqpfpZdomxa9KGQpuEig=="/>
+    <contextParameter comment="Talend AMC schema name" name="cv_TalendAMC_Schema" prompt="cv_TalendAMC_Schema?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value=""/>
+    <contextParameter comment="Talend AMC Server name" name="cv_TalendAMC_Server" prompt="cv_TalendAMC_Server?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="mitlnd01-dvl.caidan.local"/>
+    <contextParameter comment="Talend AMC user name" name="cv_TalendAMC_User" prompt="cv_TalendAMC_User?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="apptlndd"/>
+    <contextParameter comment="Progress Tablename" name="lv_Progress_Tablename" prompt="lv_Progress_Tablename?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Tablename Alias" name="lv_Progress_TableAlias" prompt="lv_Progress_TableAlias?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Database Jdbc Url" name="lv_Progress_Database_JdbcUrl" prompt="lv_Progress_Database_JdbcUrl?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Classname" name="lv_Progress_ClassName" prompt="lv_Progress_ClassName?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress DB Username" name="lv_Progress_Username" prompt="lv_Progress_Username?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress DB Password" name="lv_Progress_Pwd" prompt="lv_Progress_Pwd?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_Password" value=""/>
+    <contextParameter comment="Progress Dyname Query" name="lv_Progress_DynamicQuery" prompt="lv_Progress_DynamicQuery?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Dyname Column list" name="lv_Progress_DynamicColsList" prompt="lv_Progress_DynamicColsList?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="Talend AMC additional parameters" name="cv_TalendAMC_AdditionalParms" prompt="cv_TalendAMC_AdditionalParms?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="characterEncoding=UTF-8"/>
+    <contextParameter comment="Talend AMC database name" name="cv_TalendAMC_DB" prompt="cv_TalendAMC_DB?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="TalendAMC"/>
+    <contextParameter comment="Talend AMC Server port number" name="cv_TalendAMC_Port" prompt="cv_TalendAMC_Port?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="3306"/>
+    <contextParameter comment="Talend AMC password" name="cv_TalendAMC_Pwd" prompt="cv_TalendAMC_Pwd?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_Password" value="qaAg6HHfe+FiMJy7cVJl1A=="/>
+    <contextParameter comment="Talend AMC schema name" name="cv_TalendAMC_Schema" prompt="cv_TalendAMC_Schema?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value=""/>
+    <contextParameter comment="Talend AMC Server name" name="cv_TalendAMC_Server" prompt="cv_TalendAMC_Server?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="mitlnd01-qvl.caidan.local"/>
+    <contextParameter comment="Talend AMC user name" name="cv_TalendAMC_User" prompt="cv_TalendAMC_User?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="apptlndq"/>
+    <contextParameter comment="Progress Tablename" name="lv_Progress_Tablename" prompt="lv_Progress_Tablename?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Tablename Alias" name="lv_Progress_TableAlias" prompt="lv_Progress_TableAlias?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Database Jdbc Url" name="lv_Progress_Database_JdbcUrl" prompt="lv_Progress_Database_JdbcUrl?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Classname" name="lv_Progress_ClassName" prompt="lv_Progress_ClassName?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress DB Username" name="lv_Progress_Username" prompt="lv_Progress_Username?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress DB Password" name="lv_Progress_Pwd" prompt="lv_Progress_Pwd?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_Password" value=""/>
+    <contextParameter comment="Progress Dyname Query" name="lv_Progress_DynamicQuery" prompt="lv_Progress_DynamicQuery?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Dyname Column list" name="lv_Progress_DynamicColsList" prompt="lv_Progress_DynamicColsList?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="Uat">
+    <contextParameter comment="Talend AMC additional parameters" name="cv_TalendAMC_AdditionalParms" prompt="cv_TalendAMC_AdditionalParms?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="characterEncoding=UTF-8"/>
+    <contextParameter comment="Talend AMC database name" name="cv_TalendAMC_DB" prompt="cv_TalendAMC_DB?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="TalendAMC"/>
+    <contextParameter comment="Talend AMC Server port number" name="cv_TalendAMC_Port" prompt="cv_TalendAMC_Port?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="3306"/>
+    <contextParameter comment="Talend AMC password" name="cv_TalendAMC_Pwd" prompt="cv_TalendAMC_Pwd?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_Password" value="qaAg6HHfe+FiMJy7cVJl1A=="/>
+    <contextParameter comment="Talend AMC schema name" name="cv_TalendAMC_Schema" prompt="cv_TalendAMC_Schema?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value=""/>
+    <contextParameter comment="Talend AMC Server name" name="cv_TalendAMC_Server" prompt="cv_TalendAMC_Server?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="mitlnd01-qvl.caidan.local"/>
+    <contextParameter comment="Talend AMC user name" name="cv_TalendAMC_User" prompt="cv_TalendAMC_User?" promptNeeded="false" repositoryContextId="_fLINkA2DEeezbKXUENJJPA" type="id_String" value="apptlndq"/>
+    <contextParameter comment="Progress Tablename" name="lv_Progress_Tablename" prompt="lv_Progress_Tablename?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Tablename Alias" name="lv_Progress_TableAlias" prompt="lv_Progress_TableAlias?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Database Jdbc Url" name="lv_Progress_Database_JdbcUrl" prompt="lv_Progress_Database_JdbcUrl?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Classname" name="lv_Progress_ClassName" prompt="lv_Progress_ClassName?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress DB Username" name="lv_Progress_Username" prompt="lv_Progress_Username?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress DB Password" name="lv_Progress_Pwd" prompt="lv_Progress_Pwd?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_Password" value=""/>
+    <contextParameter comment="Progress Dyname Query" name="lv_Progress_DynamicQuery" prompt="lv_Progress_DynamicQuery?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+    <contextParameter comment="Progress Dyname Column list" name="lv_Progress_DynamicColsList" prompt="lv_Progress_DynamicColsList?" promptNeeded="false" repositoryContextId="_eNmt4IQ-EeeIO8fOIiZJzA" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="true"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="true"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="System.getenv(&quot;TALEND_CONTEXT_FILEPATH&quot;)+&quot;context.txt&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Info"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/adminabellamkonda/MyTalendStudio70/workspaceTalend/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tMysqlOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MARIADB"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.cv_TalendAMC_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.cv_TalendAMC_Port"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.cv_TalendAMC_DB"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.cv_TalendAMC_AdditionalParms"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value=""/>
+    <elementParameter field="TEXT" name="USER" value="context.cv_TalendAMC_User"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kuepog8uKmqlPWASzNltIT15NTeu8oOFScs="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;STATCATCHER&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;LOGCATCHER&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;FLOWMETERCATCHER&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="true"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_g6IkZn-bEei2MemHa1Fo1A" name="DQTechnical"/>
+    <routinesParameter id="_g5iugH-bEei2MemHa1Fo1A" name="DataMasking"/>
+    <routinesParameter id="_gy-zgH-bEei2MemHa1Fo1A" name="DataOperation"/>
+    <routinesParameter id="_g5sfhn-bEei2MemHa1Fo1A" name="DataQualityDependencies"/>
+    <routinesParameter id="_g5iuin-bEei2MemHa1Fo1A" name="DataQuality"/>
+    <routinesParameter id="_g5_acH-bEei2MemHa1Fo1A" name="DqStringHandling"/>
+    <routinesParameter id="_g4Mqtn-bEei2MemHa1Fo1A" name="Mathematical"/>
+    <routinesParameter id="_g4Wbtn-bEei2MemHa1Fo1A" name="Numeric"/>
+    <routinesParameter id="_g4gMtn-bEei2MemHa1Fo1A" name="Relational"/>
+    <routinesParameter id="_g6SVZn-bEei2MemHa1Fo1A" name="SQLike"/>
+    <routinesParameter id="_g4pWoH-bEei2MemHa1Fo1A" name="StringHandling"/>
+    <routinesParameter id="_g4zHpn-bEei2MemHa1Fo1A" name="TalendDataGenerator"/>
+    <routinesParameter id="_g48Rln-bEei2MemHa1Fo1A" name="TalendDate"/>
+    <routinesParameter id="_g5Y9gH-bEei2MemHa1Fo1A" name="TalendStringUtil"/>
+    <routinesParameter id="_g5GCln-bEei2MemHa1Fo1A" name="TalendString"/>
+    <routinesParameter id="_rTdnoB62EeetUshUVnAeow" name="EIMRoutines"/>
+  </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Calling Ref Proj JobLet&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="EIM_REF:Test_JobLet" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Test_JobLet_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tJava_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="EIM_REF:Test_JobLet"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="Test_JobLet_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Test_JobLet_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9b6b05a2-a8b7-4daa-83be-824635044a66"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EpJ5kSjyQYmGVmPKcTglPgw6DItm5Gk78xNeZ6CBrEE5NLft5iQYe5zJupIF3ESLy1hapkS/EaXm
+GBsNEeCt/g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_242d519a-0dd7-479e-a853-d8d52d2e7013"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+BeNi7RgdOn8iu8Yi9O72hXbmMPZVUB3ckxLkpVCeNK5j2vwd2lOvmHpUmgW5pdLekUlXzIctljv
+VwAfkzP4nQ==</DigestValue></Reference></SignedInfo><SignatureValue>ByxPF9jV4wzX1y8E3KKXILeNlcivhONKsFpwlfKoMFJllPopqaWdl32DKbskM9B57aPOzT4j5piE
+inaayf2uFYH2qGQFSO9jperC0Va71i9MFOraon/7UDQDgxC10t7j/Vegu6xutO9llb+Bi10nbTeK
+pT1OSsaSIncVaej34jYXKcfv918hjENU4PuqmuksPojD/g6MZMNneNEvMwxjuotvpWCGX5JZN/q6
+8ECDBrZUGZR8LcXoeCOwC7uXsyNPsqRKz4Ifg0PGyWeGfH/nFtHo7NqYtjMGfdMcYZGxpeMy19sy
++MYRgS9JdUGZZRRH69yUOb6P2RU8PgvZumq7hQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_242d519a-0dd7-479e-a853-d8d52d2e7013" Target="#_9b6b05a2-a8b7-4daa-83be-824635044a66"><Timestamp>2018-09-06 09:46:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
