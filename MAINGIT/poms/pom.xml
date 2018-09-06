@@ -8,6 +8,9 @@
   <packaging>pom</packaging>
   <name>MAINGIT Codes Master</name>
   <url>http://www.talend.org/</url>
+  <modules>
+    <module>code/routines</module>
+  </modules>
   <properties>
     <talend.project.name>MAINGIT</talend.project.name>
     <encoding>UTF-8</encoding>
