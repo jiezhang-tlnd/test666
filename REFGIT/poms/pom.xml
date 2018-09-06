@@ -10,8 +10,8 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
-    <module>../../MAINGIT/poms</module>
     <module>jobs/process/Developers/Anil/test_joblet_0.1</module>
+    <module>../../MAINGIT/poms</module>
   </modules>
   <properties>
     <talend.project.name>REFGIT</talend.project.name>
