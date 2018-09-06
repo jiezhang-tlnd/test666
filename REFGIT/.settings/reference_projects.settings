@@ -1,6 +1,6 @@
 {
   "reference_projects" : [ {
     "project" : "MAINGIT",
-    "branch" : "branches/mylocalmaster"
+    "branch" : "master"
   } ]
 }
